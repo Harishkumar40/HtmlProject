@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+section { 
+    display: block;
+}
+</style>
+</head>
+<body>
+   <section>
+<canvas id="myCanvas" width="1350" height="300" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Awesome Online videos",500,100);
+</script>
+
+</style>
+</section>
+</head>
+<body>
+
+
+<section>
+ <video width="720" height="405" controls  poster="http://www.webestools.com/page/media/videoTag/BigBuckBunny.png">
+	<source src="http://www.webestools.com/page/media/videoTag/BigBuckBunny.mp4" type="video/mp4">
+	<source src="http://www.webestools.com/page/media/videoTag/BigBuckBunny.ogg" type="video/ogg">
+	<source src="http://www.webestools.com/page/media/videoTag/BigBuckBunny.webm" type="video/webm">
+	Your browser does not support the video tag or the file format of this video. <a href="http://www.webestools.com/">http://www.webestools.com/</a>
+</video>
+</section>
+
+
+</body>
+</html>

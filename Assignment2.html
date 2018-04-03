@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+canvas {
+padding : 0;
+margin:auto;
+display:block;
+width:300px ;
+height: 200px ;
+position : top;
+top: 0;
+bottom : 0;
+left : 0;
+right : 0;
+}
+</style>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Xena Events",10,50);
+</script>
+
+<form action = "" autocomplete="on"
+<div align = "center">
+username:<input type="username" name = ""username"/><br>
+Age<input type = "number" name = "age" min = "18"/><br>
+Email:<input type = "email" name = "email" /><br>
+City:<input list = "city" name = "city"/><br>
+<datalist id = "city">
+<option value = "Rajkot">
+<option value = "Vizag">
+<option value = "Bangalore">
+</datalist>
+<input type = "submit" value = "submit">
+<br>
+<p1>Riding event from Feb 28th 2017 onwords for 5 days</p1>
+</div>
+</form>
+</body>
+</html>
